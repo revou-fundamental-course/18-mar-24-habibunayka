@@ -3,6 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="pragma" content="no-cache" />
 
         <title>Portfolio Website</title>
         <link rel="stylesheet" href="css/style.css" />
@@ -97,7 +100,12 @@
                         Lorem ipsum dolor sit, amet consectetur adipisicing
                         elit. Eveniet sint omnis voluptatum.
                     </p>
-                    <form class="form" onclick="validateForm()" method="dialog" action="#">
+                    <form
+                        class="form"
+                        onclick="validateForm()"
+                        method="dialog"
+                        action="#"
+                    >
                         <label for="name">Your name</label>
                         <input
                             id="name"
@@ -114,12 +122,11 @@
                             type="email"
                             placeholder="example@gmail.com"
                             oninput="validateEmail()"
-
                             autocomplete="off"
                             required
                         />
                         <div id="email-error"></div>
-                        <label  for="option">What are you interest in?</label>
+                        <label for="option">What are you interest in?</label>
                         <select oninput="validateSelect()" id="option">
                             <option value="">Select Option</option>
                             <option value="1">1</option>
@@ -189,12 +196,15 @@
                 <div class="stratch"></div>
                 <div class="card-container">
                     <div class="card hidden">
-                        <div class="card-label"><box-icon
-                            type="logo"
-                            color="#ffffff"
-                            name="sketch"
-                            class="card-logo"
-                        ></box-icon>Best Deal</div>
+                        <div class="card-label">
+                            <box-icon
+                                type="logo"
+                                color="#ffffff"
+                                name="sketch"
+                                class="card-logo"
+                            ></box-icon
+                            >Best Deal
+                        </div>
                         <h2>Basic Package</h2>
                         <ul>
                             <li>Feature 1</li>
@@ -205,13 +215,16 @@
                         <button class="buy-button">Buy Now</button>
                     </div>
                     <div class="card hidden">
-                        <div class="card-label"><box-icon
-                            type="logo"
-                            color="#ffffff"
-                            name="sketch"
-                            class="card-logo"
-                        ></box-icon>Best Seller</div>
-                        
+                        <div class="card-label">
+                            <box-icon
+                                type="logo"
+                                color="#ffffff"
+                                name="sketch"
+                                class="card-logo"
+                            ></box-icon
+                            >Best Seller
+                        </div>
+
                         <h2>Premium Package</h2>
                         <ul>
                             <li>Feature 1</li>
@@ -251,28 +264,32 @@
             <section id="call-us" class="call-container">
                 <div class="call-wrapper">
                     <h1 class="title">Call Us</h1>
-                <div class="stratch"></div>
+                    <div class="stratch"></div>
                     <h1 class="call-title" id="call-us">
-                      Get Tips & Tricks to Design Website <br /><span
-                        >For Free!</span
-                      >
+                        Get Tips & Tricks to Design Website <br /><span
+                            >For Free!</span
+                        >
                     </h1>
-                    <form onsubmit="correct()" method="get" class="cta-container">
-                      <input
-                        type="email"
-                        id="cta_newsletter"
-                        placeholder="Masukkan Email"
-                        required
-                      />
-                      <input type="submit" value="Submit" />
+                    <form
+                        onsubmit="correct()"
+                        method="get"
+                        class="cta-container"
+                    >
+                        <input
+                            type="email"
+                            id="cta_newsletter"
+                            placeholder="Masukkan Email"
+                            required
+                        />
+                        <input type="submit" value="Submit" />
                     </form>
                 </div>
             </section>
         </section>
         <section class="footer">
-          Email: habibunayka@gmail.com<br />
-          &#169; Habibunayka Miftah Al-Rizqi | Fundamental Course Software Engineer
-          RevoU 2024
+            Email: habibunayka@gmail.com<br />
+            &#169; Habibunayka Miftah Al-Rizqi | Fundamental Course Software
+            Engineer RevoU 2024
         </section>
         <script src="js/script.js"></script>
     </body>
