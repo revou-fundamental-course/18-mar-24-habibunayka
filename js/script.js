@@ -29,7 +29,7 @@ window.addEventListener("scroll", function () {
         if (position < windowHeight) {
             setTimeout(function () {
                 cards.style.opacity = 1;
-            }, 300 * index);
+            }, 600 * index);
         }
     });
 });
