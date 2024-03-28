@@ -466,7 +466,7 @@ body {
     padding-bottom: 140px;
     text-align: center;
     width: 300px;
-    height: 400px;
+    height: 450px;
     margin: 50px 40px;
     color: var(--text-color);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
@@ -482,7 +482,7 @@ body {
 }
 .card:nth-child(2) {
     width: 350px;
-    height: 450px;
+    height: 500px;
 }
 
 .card:hover {
@@ -527,7 +527,14 @@ body {
 }
 
 .card ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card ul li box-icon{
+    margin-right: 5px;
 }
 
 .card .price {
@@ -688,7 +695,7 @@ body {
 
     .card {
         margin: auto;
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     .card .label {
