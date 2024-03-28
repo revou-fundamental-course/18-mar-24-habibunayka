@@ -90,7 +90,6 @@ function validateName() {
 
     document.getElementById("name-error").innerHTML = "";
 
-
     if (name === "") {
         errorMsg = "Name is required.";
     } else if (!nameRegex.test(name)) {
@@ -130,7 +129,6 @@ function validateSelect() {
     var errorMsg = "";
 
     document.getElementById("select-error").innerHTML = "";
-
 
     if (select === "") {
         errorMsg = "Option is required!";
