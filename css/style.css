@@ -6,6 +6,7 @@ html {
     --background-color: rgb(0, 0, 0);
     --first-font: Arial, sans-serif;
 }
+/* test */
 
 * {
     color: var(--text-color);
